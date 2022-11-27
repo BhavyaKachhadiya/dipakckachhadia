@@ -17,6 +17,19 @@ html{
     
 }
 
+/* .checkbtn{
+    font-size: 30px ;
+    color: #E91C28;
+    float: left;
+    line-height: 80px;
+    margin-left: 40px;
+    cursor: pointer;
+    display: none ;
+}
+
+#check{
+    display: none;
+} */
 .navbar-link  a{
     float: right;
     /* margin: 30px; */
@@ -215,6 +228,10 @@ ul{
     color: #af0e15;
 }
 
+#modal-1,#modal-2,#modal-3,#modal-4,#modal-5,#modal-6{
+    position: fixed;
+}
+
 .modal{
     position: absolute;
     top: 0;
@@ -264,6 +281,12 @@ ul{
     margin-top: 50px;
     text-align: left;
     padding-left: 45px;
+    color: #E91C28;
+}
+
+.hr{
+    margin-left: 45px;
+    margin-right: 50px;
 }
 .modal-d{
     font-weight: 500;
@@ -273,3 +296,30 @@ ul{
     text-align: left;
     padding-left: 45px;
 }
+
+/* @media screen and (min-width: 425px){
+    .logo{
+        padding-left: 0px;
+    }
+    .checkbtn{
+        display: block;
+    }
+}
+
+@media  screen and (min-width:768px) {
+    .grid-s{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid-grid{
+        display: inline;
+    }
+
+    .ml{
+        margin-left: 0px ; 
+    }
+} */
