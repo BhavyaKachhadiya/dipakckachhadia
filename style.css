@@ -109,15 +109,16 @@ ul{
 }
 .grid-grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: 33.33%;
     /* align-content: center ;   */
     row-gap: 40px;
     column-gap: 170px;
+    margin-left: 235px;
 }
 
 .service{
-    border: solid;
+    /* border: solid; */
     border-color:  #E91C28;
     height: 210px;
     width: 300px;
@@ -140,7 +141,7 @@ ul{
 }
 
 .ml{
-    margin-left: 45px;
+    /* margin-left: 45px; */
 }
 .style{
     font-family: 'Poppins', sans-serif;
@@ -242,7 +243,7 @@ ul{
     align-items: center;
     justify-content: center;
     background: rgba(77, 77, 77, 0.7);
-    /* transition: all 0.2s; */
+    transition: all 0.2s;
     visibility: hidden;;
     opacity: 0;
 }
@@ -255,8 +256,8 @@ ul{
 .modalcontent{
     position: relative;;
     background: #fff;
-    width: 1280px;
-    height: 600px;
+    width: 1000px;
+    height: 550px;
     max-width: 90%;
     border-radius: 30px;
     
@@ -290,13 +291,16 @@ ul{
 }
 .modal-d{
     font-weight: 500;
-    font-size: 25px;
+    font-size: 15px;
     font-family: 'Poppins';
     /* margin-top: 50px; */
     text-align: left;
     padding-left: 45px;
 }
 
+.pl{
+    padding-left: 6px;
+}
 /* @media screen and (min-width: 425px){
     .logo{
         padding-left: 0px;
