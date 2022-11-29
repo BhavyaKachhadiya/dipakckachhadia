@@ -14,13 +14,10 @@
 
     }
 
-    .i-am{
-        /* padding-left: 45px; */
-    }
-
     .grid-grid{
         margin-left: 0px;
         display: block;
+        margin-left: 16px;
     }
 
     .view{
@@ -32,7 +29,7 @@
     }
 }
 
-@media screen and (min-width:375px){
+@media screen and (min-width:321px) and (max-width:375px){
     .grid-grid{
         padding-left: 30px;
     }
@@ -49,14 +46,6 @@
         padding-left: 0px;
     }
 
-    .hero-text{
-        /* padding-left: 130px; */
-    }
-
-    .i-am{
-        /* margin-left: 120px; */
-    }
-
     .view{
         height: auto;;
     }
@@ -65,7 +54,7 @@
     }
 
     .grid-grid{
-        margin-left: 25px;
+        margin-left: 72px;
     }
 
     .grid-contact{

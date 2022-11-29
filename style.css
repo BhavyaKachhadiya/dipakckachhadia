@@ -2,9 +2,13 @@
 *{
     box-sizing: border-box;
 }
+body{
+    margin: 0px;
+}
 html{
     padding: 0px;
     margin: 0px;
+    scroll-behavior: smooth;
 }
 .navbar{
     height: 90px;
@@ -32,7 +36,7 @@ html{
 } */
 .navbar-link  a{
     float: right;
-    /* margin: 30px; */
+    margin: 0px;
     text-decoration: none;
     color: #E91C28;
   }
@@ -114,7 +118,7 @@ ul{
     /* align-content: center ;   */
     row-gap: 40px;
     column-gap: 170px;
-    margin-left: 235px;
+    /* margin-left: 235px; */
 }
 
 .service{
@@ -140,9 +144,6 @@ ul{
     padding: 10px;
 }
 
-.ml{
-    /* margin-left: 45px; */
-}
 .style{
     font-family: 'Poppins', sans-serif;
     color: #E91C28;

@@ -1,0 +1,14 @@
+@media screen and (min-width: 1025px) and (max-width: 1440px)
+{
+    .view{
+        height: auto;
+    }
+
+    .grid-grid{
+        margin-left: 300px;
+    }
+
+    .grid{
+        gap: 55px;
+    }
+}
