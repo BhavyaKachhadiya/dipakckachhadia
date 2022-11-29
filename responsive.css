@@ -27,6 +27,10 @@
     .grid-contact{
         display: block;
     }
+
+    .modal-t{
+        font-size: 25px;
+    }
 }
 
 @media screen and (min-width:321px) and (max-width:375px){
@@ -46,6 +50,13 @@
         padding-left: 0px;
     }
 
+    .modal-t{
+        font-size: 30px;
+    }
+
+    .hero-text{
+        font-size: 60px;
+    }
     .view{
         height: auto;;
     }
