@@ -18,25 +18,23 @@ html{
     justify-content: space-between;
     align-items: center;
     align-content: center;
+    overflow: hidden;
+    position: relative;
     
 }
 
-/* .checkbtn{
-    font-size: 30px ;
+.navbar a.icon {
+    /* background: black; */
+    display: block;
     color: #E91C28;
-    float: left;
-    line-height: 80px;
-    margin-left: 40px;
-    cursor: pointer;
-    display: none ;
-}
+    position: absolute;
+    right: 10px;
+    top: 37px;
+  }
 
-#check{
-    display: none;
-} */
 .navbar-link  a{
     float: right;
-    margin: 0px;
+    margin-right: 15px;
     text-decoration: none;
     color: #E91C28;
   }
@@ -47,7 +45,7 @@ ul{
 }
 
 .ls-style{
-    padding: 15px;
+    /* padding: 15px; */
     list-style-type: none;  
     font-family: 'Poppins';
     font-weight: 600;
