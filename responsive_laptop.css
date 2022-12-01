@@ -4,8 +4,10 @@
         height: auto;
     }
 
-    .grid-grid{
-        margin-left: 120px;
+    .center{
+        display: flex;
+        justify-content: center;
     }
+
 }
     

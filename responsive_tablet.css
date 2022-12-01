@@ -1,7 +1,7 @@
 @media screen and (min-width: 426px) and (max-width: 768px){
     
-    .nav-link{
-        margin: -180px;
+    .navbar-link{
+        display: none;
     }
 
     .navbar{
@@ -16,7 +16,16 @@
         height: auto;
     }
 
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+
     .grid-grid{
-        margin-left: 0px;
+        display: block;
+    }
+
+    .grid-contact{
+        display: block;
     }
 }

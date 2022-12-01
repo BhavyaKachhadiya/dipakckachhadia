@@ -14,10 +14,15 @@
 
     }
 
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+
     .grid-grid{
         margin-left: 0px;
         display: block;
-        margin-left: 16px;
+        /* margin-left: 16px; */
     }
 
     .view{
@@ -35,8 +40,13 @@
 
 @media screen and (min-width:321px) and (max-width:375px){
     .grid-grid{
-        padding-left: 30px;
+        /* padding-left: 30px; */
     }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+    
 }
 @media screen and (min-width: 376px) and (max-width: 425px){
     .navbar-link{
@@ -60,12 +70,12 @@
     .view{
         height: auto;;
     }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
     .grid-grid{
         display: block;
-    }
-
-    .grid-grid{
-        margin-left: 72px;
     }
 
     .grid-contact{

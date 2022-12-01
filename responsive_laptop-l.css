@@ -4,11 +4,12 @@
         height: auto;
     }
 
-    .grid-grid{
-        margin-left: 300px;
+    .center{
+        display: flex;
+        justify-content: center;
     }
 
     .grid{
-        gap: 55px;
+        /* gap: 55px; */
     }
 }
