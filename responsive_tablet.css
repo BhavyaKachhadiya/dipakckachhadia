@@ -9,7 +9,9 @@
     }
 
     .navbar{
-        margin-left: 10px;
+        /* margin-left: 10px; */
+        display: flex;
+        justify-content: center;
     }
 
     .ls-style{
